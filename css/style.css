@@ -24,6 +24,7 @@ html {
 body {
 	font-size: 1.6rem;
 	font-family:'AvenirNextLTW01-Regular';
+    height: 100%;
 }
 
 a {
@@ -1037,14 +1038,15 @@ Pricing
 	padding-right: 1em;
 	border-bottom: 2px solid #f2f2f2;
 }
-.compare-dinomo {
-    border: 2px solid #2683ff;
+.compare-dinomo:hover {
+    box-sizing: border-box;
+    border: 1px solid #2683ff;
     border-radius: 10px;
 }
-.compare-dinomo .compare-logo {
+.compare-dinomo:hover .compare-logo {
 	max-width: 184px;
 }
-.compare-dinomo .compare-pricing {
+.compare-dinomo:hover .compare-pricing {
 	color: #2683ff;
 }
 .compare-pricing {
@@ -1105,9 +1107,8 @@ Upload Section
     font-family: 'Avenir Next LT W01 Bold';
     letter-spacing: 0;
 }
-.upload-gui {
-	width: 100%;
-	max-width: 460px;
+.breakdown {
+    height: 640px;
 	margin-bottom: 1em;
 }
 
@@ -1736,7 +1737,7 @@ Media Queries
 		padding: 0;
 		margin: 1em auto;
     }
-    .upload-gui {
+    .breakdown {
     	margin-top: 1em;
     }
     .navbar-page .navbar-brand {
