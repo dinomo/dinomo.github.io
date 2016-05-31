@@ -361,5 +361,44 @@ jQuery(document).ready(function($){
 	//   centerMode: true,
 	//   focusOnSelect: true
 	// });
-
+    
+    var price = 9.95;
+    $('#se').click(function() {
+        if (this.checked) {
+            $(".se").addClass("check");
+            $(".se").removeClass("x");
+            price += 5;
+        } else {
+            $(".se").removeClass("check");
+            $(".se").addClass("x");
+            price -= 5;
+        }
+        $('#price').html(price);
+    });
+    
+    $('#he').click(function() {
+        if (this.checked) {
+            $(".he").addClass("check");
+            $(".he").removeClass("x");
+            price += 5;
+        } else {
+            $(".he").removeClass("check");
+            $(".he").addClass("x");
+            price -= 5;
+        }
+        $('#price').html(price);
+    });
+    
+    $('#ke').click(function() {
+        if (this.checked) {
+            $(".ke").addClass("check");
+            $(".ke").removeClass("x");
+            price += 5;
+        } else {
+            $(".ke").removeClass("check");
+            $(".ke").addClass("x");
+            price -= 5;
+        }
+        $('#price').html(price);
+    });
 });

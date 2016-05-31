@@ -118,53 +118,29 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-10 col-xs-push-1">
-					<h1>Three tiers. Three paths.</h1>
-					<p>Pay only for what you need. It's as simple as it gets.</p>
+					<h1>Pay only for what you need.</h1>
+					<p>It's as simple as it gets.</p>
 				</div>
 			</div>
 			<div class="row plans">
-				<div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="col-md-3"></div>
+				<div class="col-xs-12 col-sm-12 col-md-6 text-center">
 					<div class="plan">
 						<div class="row">
 							<div class="col-xs-12">
-								<p class="plan-title">Basic</p>
-								<img src="img/icon-sun.svg" class="plan-icon" alt="">
-								<h2 class="plan-pricing">$14.95<span>Converts:<span class="check">✓ Solar Energy</span><span class="x">✗ Heat Energy</span><span class="x">✗ Motion Energy</span></span></h2>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-4">
-					<div class="plan">
-						<div class="row">
-							<div class="col-xs-12">
-								<p class="plan-title">Pro</p>
-								<img src="img/icon-sun-flame.png" class="plan-icon" alt="">
-								<h2 class="plan-pricing">$19.95<span>Converts:<span class="check">✓ Solar Energy</span><span class="check">✓ Heat Energy</span><span class="x">✗ Motion Energy</span></span></h2>
-							</div>
-						</div>
-					</div>
-				</div>
-                <div class="col-xs-12 col-sm-12 col-md-4">
-					<div class="plan best-value">
-						<div class="row">
-							<div class="col-xs-12">
-								<p class="plan-title">Ultimate</p>
+								<p class="plan-title">Customize your Dinomo</p>
 								<img src="img/icon-sun-flame-gear.png" class="plan-icon" alt="">
-								<h2 class="plan-pricing">$24.95<span>Converts:<span class="check">✓ Solar Energy</span><span class="check">✓ Heat Energy</span><span class="check">✓ Motion Energy</span></span></h2>
+								<h2 class="plan-pricing">$<div style="display:inline" id="price">9.95</div><span>Converts:<span class="x se"><input type="checkbox" style="display:inline;width:40px" id="se" />Solar Energy</span><span class="x he"><input type="checkbox" style="display:inline;width:40px" id="he" />Heat Energy</span><span class="x ke"><input type="checkbox" style="display:inline;width:40px" id="ke" />Kinetic Energy</span></span></h2>
 							</div>
 						</div>
 					</div>
 				</div>
+                <div class="col-md-3"></div>
 			</div>
 			<div class="row">
 				<div class="col-xs-12">
-					<button class="btn subscribe" id="getStarted">Get Started</button>
+					<button class="btn subscribe">Checkout</button>
 					<div class="get-started-form" id="getStartedForm">
-						<form action="#" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
-							<input type="email" value="" name="EMAIL" class="email" id="getStartedEmail" placeholder="Enter your email here" spellcheck="false" required>
-							<input type="submit" value="Invite Me" name="subscribe" id="mc-embedded-subscribe" class="btn subscribe">
-						</form>
 					</div>
 				</div>
 			</div>
